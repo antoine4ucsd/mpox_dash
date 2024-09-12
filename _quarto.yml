@@ -7,8 +7,8 @@ website:
   navbar:
     left:
       - href: mpox_who_dashboard.qmd
-        text: Home
-      - about.qmd
+        # text: Home
+      # - about.qmd
 
 
 html:
