@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "mpox_dash"
+  navbar:
+    left:
+      - href: mpox_who_dashboard.qmd
+        text: Home
+      - about.qmd
+
+
+html:
+    logo: images/my_logo_white.png
+    theme: [sandstone, theme/custom.scss]
+    css: theme/custom.scss
+    toc: true
+
+editor: visual
+
